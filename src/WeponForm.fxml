@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="weaponWindow" prefHeight="457.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WeponFormController">
+   <children>
+      <Label layoutX="162.0" layoutY="33.0" text="Ready Your Wepons" textFill="#b32a0f">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <ListView layoutX="339.0" layoutY="100.0" prefHeight="264.0" prefWidth="200.0" style="-fx-background-color: gray;" />
+      <Label layoutX="391.0" layoutY="124.0" prefHeight="28.0" prefWidth="95.0" text="Player B" textFill="#2a30ce">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="236.0" layoutY="385.0" mnemonicParsing="false" onAction="#loadPlayPage" text="Start Battle" textFill="#109660">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="cbxT56B" layoutX="391.0" layoutY="166.0" mnemonicParsing="false" text="T - 56" textFill="#ac2020">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="102.0" layoutY="302.0" mnemonicParsing="false" text="CheckBox" />
+      <ListView layoutX="75.0" layoutY="100.0" prefHeight="264.0" prefWidth="200.0" style="-fx-background-color: gray;" />
+      <Label layoutX="128.0" layoutY="124.0" prefHeight="28.0" prefWidth="95.0" text="Player A" textFill="#2a30ce">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="cbxT56" layoutX="126.0" layoutY="166.0" mnemonicParsing="false" text="T - 56" textFill="#ac2020">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="cbxMultiBarrel" layoutX="126.0" layoutY="239.0" mnemonicParsing="false" text="Multi Barrel" textFill="#ac2020">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="cbxTank" layoutX="126.0" layoutY="201.0" mnemonicParsing="false" text="Tank" textFill="#ac2020">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="cbxBomb" layoutX="126.0" layoutY="319.0" mnemonicParsing="false" text="Bomb" textFill="#ac2020">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="cbxPistol" layoutX="126.0" layoutY="277.0" mnemonicParsing="false" text="Pistol" textFill="#ac2020">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="cbxTankB" layoutX="391.0" layoutY="201.0" mnemonicParsing="false" text="Tank" textFill="#ac2020">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="cbxMultiBarrelB" layoutX="391.0" layoutY="239.0" mnemonicParsing="false" text="Multi Barrel" textFill="#ac2020">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="cbxPistolB" layoutX="392.0" layoutY="277.0" mnemonicParsing="false" text="Pistol" textFill="#ac2020">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="cbxBombB" layoutX="391.0" layoutY="319.0" mnemonicParsing="false" text="Bomb" textFill="#ac2020">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>
